@@ -1,0 +1,128 @@
+body{
+    background-color: #e9ecf1;
+}
+.container-fluid{
+    background-color: #e9ecf1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.image-part{
+    background-color: #ffffff;
+    padding: 75px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-top: 95px;
+    border-radius: 4rem 0 0 4rem;
+}
+
+.login-part{
+    background-color: #ff4133;
+    border-radius: 0rem 4rem 4rem 0rem;
+}
+
+.login-card{
+    float: none;
+    margin: auto;
+    margin-top: 12%;
+}
+.form-cover{
+    padding: 30px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+.form-cover h3{
+    margin-bottom: 0px;
+}
+#signin-info{
+    margin-bottom: 30px;
+}
+.form-control1{
+        background: transparent;
+        border: none;
+        height: 50px;
+        color: #ff4133;
+        border: 1px solid transparent;
+        background: white;
+        border-radius: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+div.row{
+    padding-bottom: 25px;
+}
+#pass-input{
+    margin-bottom: 1px;
+}
+#Signin_btn{
+    background-color: #dc2622;
+    border-radius: 39px;
+    color: #e6e8ee;
+}
+.signin -btn{
+    padding-bottom: 2px;
+}
+.input-group-addon{
+    background-color: #ffffff;
+    color: black;
+}
+#basic-addon1{
+    background-color: #ffffff;
+}
+.radius{
+    border-radius: 2rem;
+}
+.radius-i{
+    border-radius: 0 2rem 2rem 0;
+}
+a{
+    color: #ffffff;
+}
+.input-email{
+    margin-bottom: 15px;
+}
+.input-pass{
+    margin-bottom: 0px;
+}
+#no-pad{
+    margin-bottom: 0px;
+}
+#no-pad1{
+    padding-bottom: 2px;
+}
+a:hover{
+    color:#dc2622;
+}
+@media only screen and (max-width: 1004px) {
+    .image-part{
+        align-items: center;
+        padding-left: 2rem;
+    }
+  }
+@media only screen and (max-width: 766px) {
+    .image-part{
+        align-items: center;
+        padding-left: 8rem;
+        border-radius: 2rem;
+    }
+    .login-part{
+        border-radius: 2rem;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .image-part{
+        align-items: center;
+        padding-left: 5rem;
+        border-radius: 2rem;
+    }
+  }
+  @media only screen and (max-width: 356px) {
+    .image-part{
+        align-items: center;
+        padding-left: 1rem;
+        border-radius: 2rem;
+    }
+  }
