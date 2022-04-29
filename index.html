@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <title>Vishal</title>
 </head>
 <body>
@@ -26,14 +26,13 @@
                       <h3>Sign In</h3>
                     </div>
                     <p id="signin-info">Sign to Continue to our application</p>
-                    <form>
+                    <form id="sign_in" class="sign_in">
                       <div class="form-group">
-                        <input type="email" class="form-control1 input-email w-100" placeholder="E-mail">
+                        <input type="email" class="form-control1 input_email w-100" placeholder="E-mail" required>
                       </div>
                         <div class="form-group" id="no-pad">
-                          <input type="password" class="form-control1 w-100 input-pass" placeholder="Password">
+                          <input type="password" class="form-control1 w-100 input_pass" name="input_pass" id="input_pass" placeholder="Password" required>
                         </div>
-                    </form> 
                     <div class="row form-footer">
                       <div class="col-md-5"></div>
                       <div class="col-md-7">
@@ -42,9 +41,10 @@
                     </div>
                     <div class="row signin-btn" id="no-pad1">
                       <div class="col-md-10 mx-auto sign-in-btn">
-                        <button type="button" class="btn btn-danger btn-block" id="Signin_btn">Sign In</button>
+                        <button type="submit" class="btn btn-danger btn-block" id="Signin_btn">Sign In</button>
                       </div>
                     </div>
+                  </form> 
                     <div class="text-center">
                       <a href="#">Not a member?Sign Up</a>
                     </div>
@@ -56,7 +56,8 @@
         </div>
       </div>
     </div>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./js/validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 </body>
 </html>
